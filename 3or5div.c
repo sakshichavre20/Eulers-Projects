@@ -7,6 +7,6 @@ int main(){
             count++;
         }
     }
-    printf("%d \n",sum);
-    printf("%d \n",count);
+    printf("%d The sum of numbers divisible by 3 or 5 upto 1000: \n",sum);
+    printf("%d the count of numbers divisible by 3 or 5 upto 1000: \n",count);
 }
