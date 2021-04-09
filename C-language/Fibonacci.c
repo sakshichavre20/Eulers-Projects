@@ -27,15 +27,12 @@ int main()
             {
                 evensum = evensum + n1;
             }
-            if(n1 % 2 == 1)
-            {
-                oddsum=oddsum +n1;
-            }
+           
         }
         
     }
     
     printf("sum of even elements : %d \n",evensum);
-    printf("sum of odd elements : %d \n", oddsum);
+   
     return 0;
 }
