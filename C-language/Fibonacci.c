@@ -2,7 +2,7 @@
 #include<conio.h>
 int main()
 {
-    int num,n1=0,n2=1,count=0,i,sum=0,evensum=0;
+    int num,n1=0,n2=1,count=0,i,sum=0,evensum=0,oddsum=0;
     printf("Enter a number : \n");
     scanf("%d",&num);
     if(num<=0)
@@ -27,10 +27,15 @@ int main()
             {
                 evensum = evensum + n1;
             }
+            if(n1 % 2 == 1)
+            {
+                oddsum=oddsum +n1;
+            }
         }
         
     }
     
     printf("sum of even elements : %d \n",evensum);
+    printf("sum of odd elements : %d \n", oddsum);
     return 0;
 }
