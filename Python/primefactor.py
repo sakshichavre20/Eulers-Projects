@@ -5,7 +5,6 @@ list2=[]
 # find all factors 
 def factors(num):
     global list1
-    global n1
     for i in range(2, int(math.sqrt(num))):
         if (num % i == 0):           
             list1.append(i)
@@ -31,4 +30,7 @@ def prime(num):
 prime(num)
             
 # print largest prime factor
+
 print(max(list2))   
+
+
