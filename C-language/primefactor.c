@@ -29,7 +29,7 @@ void primeFactors(int n)
     if (n > 2)
         printf("%d ", n);
 
-
+}
 /* Driver program to test above function */
 int main()
 {
