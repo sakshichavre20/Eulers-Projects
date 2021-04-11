@@ -30,7 +30,12 @@ def prime(num):
 prime(num)
             
 # print largest prime factor
+<<<<<<< HEAD
 
 print(max(list2))   
 
 
+=======
+print("the lagest prime factor of num is ",max(list2))   
+      
+>>>>>>> 99afedccb6acabd9e30e00f17d718d3e9527099f

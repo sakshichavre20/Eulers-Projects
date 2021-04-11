@@ -28,6 +28,19 @@ void primeFactors(int n)
     // is a prime number greater than 2
     if (n > 2)
         printf("%d ", n);
+<<<<<<< HEAD
+=======
+}
+
+/* Driver program to test above function */
+int main()
+{
+    int n ;
+    printf("enter a number : ");
+    scanf("%d", &n);
+    primeFactors(n);
+    return 0;
+>>>>>>> 99afedccb6acabd9e30e00f17d718d3e9527099f
 }
 
 /* Driver program to test above function */
