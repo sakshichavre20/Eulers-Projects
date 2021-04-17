@@ -26,4 +26,4 @@ results()
 sumnum=sum2**2
 #substract square of sum of all numbers-sum of squares of all the numbers
 result=sumnum-sum1
-print('Euler 6 solution:',result)
+print(result)
